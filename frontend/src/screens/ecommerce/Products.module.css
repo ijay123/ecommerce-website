@@ -1,0 +1,38 @@
+.ecom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.dis2 {
+  width: 50px;
+  color: white;
+  height: 29px;
+  background-color: red;
+  border-radius: 10px;
+  font-size: 15px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.dis1 {
+  width: 50px;
+  color: white;
+  height: 29px;
+  background-color: red;
+  border-radius: 10px;
+  font-size: 15px;
+  display: none;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.phones {
+  display: flex;
+  gap: 42px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

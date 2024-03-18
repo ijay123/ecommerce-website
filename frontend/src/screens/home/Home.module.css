@@ -1,0 +1,215 @@
+
+.content1{
+     display: flex;
+     justify-content: space-between;
+     margin-top: 50px;
+     margin-left: 30px;
+     margin-left: 30px;
+     align-items: center;
+     
+}
+.product2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+
+}
+.btn1{
+width: 150px;
+height: 40px;
+background-color: white;
+}
+
+.HomeContent{
+     width: 250px;
+     height: min-content;
+     
+     margin-top: 50px;
+     
+}
+.content2{
+     width: 250px;
+     height: 250px;
+     background-color: rgb(227, 223, 223);
+     border-top-left-radius: 7px;
+     border-top-right-radius: 7px;
+}
+.dis{
+     display: flex;
+     justify-content: space-between;
+     margin-left: 10px;
+     margin-right: 10px;
+     padding-top: 5px;
+}
+
+.delete{
+     padding: 5px;
+     width: 23px;
+     height: 23px;
+     background-color: white;
+     border-radius: 50px;
+     
+}
+.img2{
+     display: flex;
+     align-items: center;
+     justify-items: center;
+     justify-content: center;
+     align-content: center;
+}
+.content3{
+     width: 250px;
+     height: 35px;
+     background-color: black;
+     color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     gap: 20px;
+     border-bottom-left-radius: 7px;
+     border-bottom-right-radius: 7px;
+}
+.price{
+color: red;
+}
+.discPrice{
+color: grey;
+}
+
+.Home3{
+     display: flex;
+     justify-content: space-between;
+     margin: 50px 70px;
+     font-size: 18px;
+}
+.rec{
+     display: flex;
+     align-items: center;
+     gap: 20px;
+     
+}
+.btn2{
+     padding: 15px 35px;
+     font-size: 17px;
+}
+
+/* footer */
+
+
+
+footer{
+     background-color: black;
+     color: white;
+     margin-bottom: 0;
+     
+   }
+   
+   
+   .send{
+     border: 1px solid white;
+     width: 200px;
+     height: 40px;
+     display: flex;
+     padding-left: 10px;
+     align-items: center;
+     border-radius: 8px;
+     margin-left: 0;
+     margin-right: 0;
+   
+   }
+   
+   .footer1{
+     padding-bottom: 50px;
+     padding-left: 15px;
+   }
+   .input2{
+     font-size:14px;
+     width: 150px;
+   }
+   .subscribe{
+     font-size: 20px;
+     font-weight: 500;
+   }
+   .footer5{
+     color: rgb(85, 84, 84);
+     display: flex;
+     justify-content: center;
+     align-content: center;
+     align-items: center;
+     text-align: center;
+     height: 40px;
+   }
+   .footer6{
+     display: flex; 
+     padding-left: 20px; 
+     margin-top: 30px;
+     gap: 25px;
+   }
+   .footer6 img{
+     width: 18px;
+     
+   }
+
+   .save{
+     font-size: 12px;
+}
+.qr{
+     display: flex;
+}
+.play{
+     display: block;margin-left: 10px;
+}
+
+.logo{
+     margin-bottom: 7px;
+}
+
+.btn6{
+  color: white;
+  background-color: black;
+  border: none;
+}
+@media screen and (min-width: 760px) {
+     
+     .headSec2 {
+       display: flex;
+     }
+     .sec1 {
+       display: flex;
+     }
+     .head {
+       display: flex;
+       justify-content: space-between;
+     }
+     .menubar {
+       display: none;
+     }
+     .headSec2 {
+       display: flex;
+       position: sticky;
+       top: 10px;
+       justify-content: space-evenly;
+       margin-top: 20px;
+       /* margin: 20px 30px; */
+       align-items: center;
+     }
+     .content1 {
+       display: flex;
+       justify-content: space-between;
+       margin-right: 20px;
+       align-items: center;
+       overflow-x: hidden;
+     }
+     .footer{
+       display: flex;
+       margin-top: 60px;
+       padding-top: 50px;
+       margin-left: 55px;
+       margin-right: 55px;
+       justify-content: space-between;
+   
+     }
+   }
+   

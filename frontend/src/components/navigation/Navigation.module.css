@@ -1,0 +1,92 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 17px;
+  height: 40px;
+  padding: 10px;
+  position: fixed;
+  z-index: 50;
+  width: 100vw;
+  background-color: white;
+}
+
+.exclusive {
+  font-size: 25px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+.input {
+  width: 70px;
+  height: 25px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(210, 234, 226);
+  align-items: centre;
+  justify-content: center;
+  padding: 5px;
+}
+input {
+  width: 150px;
+  height: 25px;
+  border: none;
+  background-color: transparent;
+}
+.nav1 {
+  display: none;
+  text-decoration: none;
+  align-items: center;
+  gap: 20px;
+}
+.nav1:focus {
+  color: rgb(69, 69, 245);
+}
+.nav2 {
+  display: none;
+  gap: 30px;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+.nav2 .input {
+  width: 190px;
+}
+.fNav {
+  display: flex;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+  font-size: 14px;
+  color: white;
+  padding: 10px;
+  width: 100vw;
+}
+.fNav a {
+  color: white;
+}
+.select {
+  border: none;
+  background-color: black;
+  color: white;
+  background-color: transparent;
+}
+@media screen and (min-width: 700px) {
+  .nav {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 17px;
+    height: 70px;
+    padding: 10px;
+  }
+  .nav1 {
+    display: flex;
+  }
+  .nav2 {
+    display: flex;
+  }
+  .menubar {
+    display: none;
+  }
+}

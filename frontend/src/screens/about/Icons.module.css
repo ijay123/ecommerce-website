@@ -1,0 +1,23 @@
+.customers{
+     
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     gap: 20px;
+     text-align: center;
+     }
+     .container2{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 40px;
+          margin-top: 80px;
+     }
+     .track{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 40px;
+     }
+

@@ -1,0 +1,145 @@
+.about{
+     display: flex;
+     justify-content: space-around;
+     margin: 150px 40px;
+     gap: 30px;
+}
+.text{
+     font-size: 20px;
+
+}
+.text p{
+     padding-bottom: 40px;
+}
+.story{
+     font-size: 70px;
+     padding-bottom: 35px;
+}
+.customer{
+     width: 250px;
+     border: 2px solid rgb(220, 219, 219);
+     padding-top: 25px;
+     padding-bottom: 25px;
+     margin-bottom: 30px;
+     border-radius: 6px;
+}
+.img{
+     font-size: 70px;
+     width: 90px;
+     height: 90px;
+     border: 1px solid grey;
+     border-radius: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-left: auto;
+     margin-right: auto;
+     background-color: black;
+     color: white;
+     
+}
+.img2{
+     width: 110px;
+     height: 110px;
+     border: none;
+     border-radius: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: rgb(199, 197, 197);
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 25px;
+}
+.cus{
+     font-size: 40px;
+     font-weight: 700;
+     padding-bottom: 15px;
+     
+}
+.title{
+     font-size: 17px;
+     
+}
+
+.customer:hover{
+     background-color: rgb(202, 85, 85);
+     color: white;
+
+}
+.img2:hover{
+     background-color: rgb(231, 159, 159);
+}
+.img:hover{
+     background-color: white;
+     color: black;
+}
+
+.title:hover{
+     color: white;
+}
+.container{
+     width: 350px;
+     
+}
+.container p{
+     padding-bottom: 8px;
+}
+.images{
+     width: 350px;
+     background-color: rgb(182, 177, 177);
+     
+     display: flex;
+     padding: 40px 0 20px 20px;
+     justify-content: center;
+     align-items: center;
+}
+
+.name{
+     font-size: 25px;
+     padding-top: 20px;
+}
+
+.icons{
+     display: flex;
+     gap: 20px;
+}
+
+.about4{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     margin-top: 100px;
+}
+.about4 div{
+     margin-bottom: 20px;
+}
+.imgs2{
+     width: 20px;
+     height: 20px;
+     padding: 8px;
+     border-radius: 100%;
+     background-color: black;
+     color: white;
+     font-size: 30px;
+     display: flex;
+justify-content: center;
+align-items: center;
+     
+}
+.imgs1{
+width: 55px;
+height: 55px;
+background-color: rgb(158, 154, 154);
+border-radius: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: auto;
+margin-right: auto;
+}
+.ti{
+     font-size: 20px;
+     font-weight: 700;
+}
