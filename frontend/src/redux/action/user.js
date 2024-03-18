@@ -14,7 +14,7 @@ import {
 } from "../constants/user";
 import { toast } from "react-toastify";
 
-const baseUrl = "https://ecommerce-backend-sfj2.onrender.com";
+const baseUrl = "http://localhost:4000";
 
 // const userInfoFromLocalStorage = localStorage.getItem("ecommerceUserInfo")
 //   ? JSON.parse(localStorage.getItem("ecommerceUserInfo"))

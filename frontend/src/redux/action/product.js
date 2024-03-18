@@ -24,7 +24,7 @@ const userInfoFromLocalStorage = localStorage.getItem("ecommerceUserInfo")
   ? JSON.parse(localStorage.getItem("ecommerceUserInfo"))
   : null;
 
-const baseUrl = "https://ecommerce-backend-sfj2.onrender.com";
+  const baseUrl = "http://localhost:4000";
 
 export const createProductAction = (formData) => async (dispatch, state) => {
   // const {
