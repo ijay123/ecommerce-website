@@ -21,7 +21,7 @@ const userInfoFromLocalStorage = localStorage.getItem("ecommerceUserInfo")
   ? JSON.parse(localStorage.getItem("ecommerceUserInfo"))
   : null;
 
-  const baseUrl = "http://localhost:4000";
+  const baseUrl = "https://ecommerce-website-backend-4o47.onrender.com";
 
 export const createCategoryAction = (formData) => async (dispatch, state) => {
   // const {

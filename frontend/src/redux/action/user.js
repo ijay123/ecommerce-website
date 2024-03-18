@@ -14,55 +14,49 @@ import {
 } from "../constants/user";
 import { toast } from "react-toastify";
 
-const baseUrl = "http://localhost:4000";
+const baseUrl = "https://ecommerce-website-backend-4o47.onrender.com";
 
 // const userInfoFromLocalStorage = localStorage.getItem("ecommerceUserInfo")
 //   ? JSON.parse(localStorage.getItem("ecommerceUserInfo"))
 //   : null;
 
-export const createUserAction =
-  (formData) =>
-  async (dispatch, state) => {
-    //1. before the API call
-    dispatch({
-      type: CREATE_USER_REQUEST,
-    });
+export const createUserAction = (formData) => async (dispatch, state) => {
+  //1. before the API call
+  dispatch({
+    type: CREATE_USER_REQUEST,
+  });
 
-    const config = {
-      headers: {
-        "Content-Type": "application/json",
-      },
-    };
-
-    try {
-      //make API call
-      const { data } = await axios.post(
-        `${baseUrl}/users`,
-        formData,
-        config
-      );
-      //2. after the API call success
-      console.log(data, "data");
-      dispatch({
-        type: CREATE_USER_SUCCESS,
-        payload: data.data,
-      });
-      console.log(data);
-    } catch (error) {
-      //3. after the API call failure
-      console.log(error);
-      let message =
-        error.response && error.response.data.errors
-          ? error.response.data.errors.join(",")
-          : error.response && error.response.data.message
-          ? error.response.data.message
-          : error.message;
-      dispatch({
-        type: CREATE_USER_ERROR,
-        payload: message,
-      });
-    }
+  const config = {
+    headers: {
+      "Content-Type": "application/json",
+    },
   };
+
+  try {
+    //make API call
+    const { data } = await axios.post(`${baseUrl}/users`, formData, config);
+    //2. after the API call success
+    console.log(data, "data");
+    dispatch({
+      type: CREATE_USER_SUCCESS,
+      payload: data.data,
+    });
+    console.log(data);
+  } catch (error) {
+    //3. after the API call failure
+    console.log(error);
+    let message =
+      error.response && error.response.data.errors
+        ? error.response.data.errors.join(",")
+        : error.response && error.response.data.message
+        ? error.response.data.message
+        : error.message;
+    dispatch({
+      type: CREATE_USER_ERROR,
+      payload: message,
+    });
+  }
+};
 
 export const loginUserAction =
   ({ email, password }) =>
